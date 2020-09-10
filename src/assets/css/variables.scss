@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/OpenSans-Regular.ttf'); /* IE9 Compat Modes */
+  src: local('Open Sans'), local('OpenSans'),
+    url('/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/OpenSans-Bold.ttf'); /* IE9 Compat Modes */
+  src: local('Open Sans'), local('OpenSans'),
+    url('/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/OpenSans-SemiBold.ttf'); /* IE9 Compat Modes */
+  src: local('Open Sans'), local('OpenSans'),
+    url('/fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: #1bcbff;
+  --tertiary-color: #55acee;
+  --quaternary-color: #333333;
+  --accent-color: #ffe000;
+  --header-height: 100px;
+  --header-height-small: 70px;
+  --header-height-responsive: 90px;
+}
